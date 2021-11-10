@@ -133,7 +133,6 @@ header{
 .section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
  }
  .portfolio{
     margin-top: 1rem;
@@ -142,9 +141,8 @@ header{
  .section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
     margin-bottom: 2rem;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    
  }
  .portfolio .section img{
     width: 100%;
@@ -272,8 +270,13 @@ footer a:hover{
     .section{
         width: 100%;
         grid-template-columns: 1fr;
+        padding: 0;
         
+
     }
-    
+    .portfolio .section img{
+        padding-bottom: 2rem 0;
+        
+     }
 
 }
