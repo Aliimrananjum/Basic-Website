@@ -147,7 +147,7 @@ header{
  .portfolio .section img{
     width: 100%;
     align-self: center;
-    padding: 1rem;
+    padding-left: 1rem;
  }
 
 /*Logo*/
@@ -275,7 +275,8 @@ footer a:hover{
 
     }
     .portfolio .section img{
-        padding-bottom: 2rem 0;
+        padding:0;
+        margin: 1rem 0;
         
      }
 
