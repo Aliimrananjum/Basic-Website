@@ -148,7 +148,9 @@ header{
     width: 100%;
     align-self: center;
     padding-left: 1rem;
+    max-width: 500px;
  }
+ 
 
 /*Logo*/
 .services{
