@@ -33,21 +33,22 @@ p{
     line-height: 2rem;
 }
 main{
-    padding: 3rem;
+    margin:0 auto;
+    width: 90%;
 
 }
 section{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     align-items: center;
-    
+    padding: 3;
 }
 
 /* Home Page */
 .home{
     flex-direction: row;
     justify-content: space-between;
+    height: 100vh;
 }
 
 .home-img{
@@ -165,8 +166,49 @@ header{
 }
 
 
+footer{
+    padding: 2rem;
+    width: 90%;
+    margin: 2rem auto 1rem;
+    color: white;
+    background-color: black;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color:yellow;
+}
+.rest{
+    margin-top:4rem
+}
+
+
+
 
 @media screen and (max-width: 800px){
+    
+    body {
+        
+        font-size: 20px;
+    }
+    h1,h2{
+        font-weight:500;
+        padding: 1rem 1rem 1rem 0;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    p{
+        
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
     .navbar{
         flex-direction: column;
     }
@@ -197,41 +239,26 @@ header{
     #menu:checked + label + .nav-list{
         background-color: black;
         top: 6.75%;
-}
-.services{
-    grid-template-columns: 1fr;
-   
-}
+    }
 
-.services .service {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.home-img{
-    display: none;
-}
-.logo{
-    top:10px;
-    left: 40px;
-    font-size: 1.5rem;
+    .services{
+        grid-template-columns: 1fr;
     
-}
+    }
+    .services .service {
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
 
+    .home-img{
+        display: none;
+    }
+    .logo{
+        top:10px;
+        left: 40px;
+        font-size: 1.5rem;
+        
+    }
 
-}
-.rest{
-    margin-top:2rem;
-}
-footer{
-    padding: 2rem;
-    width: 90%;
-    margin: 5vh auto 1vh;
-    color: white;
-    background-color: black;
-}
-footer a{
-    color: white;
-}
-footer a:hover{
-    color:yellow;
+    
+
 }
