@@ -16,7 +16,7 @@ body {
     font-family: 'poppins', sans-serif; /*Vi må legge til en for <p>, altså vi har 2 fonts (fontpair)*/
     color: black;
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
 }
 h1,h2{
     font-weight:500;
@@ -43,8 +43,6 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
 }
 
 /* Home Page */
@@ -52,6 +50,7 @@ section{
     height: 100vh;
     flex-direction: row;
 }
+/* 
 .btn{
     cursor: pointer;
     display: inline-block;
@@ -63,13 +62,12 @@ section{
 }
 .btn:hover{
     transform: scale(0.98);
-}
+} */
 
 /* Home Page */
 .home-content{
     position: relative;
-    z-index: 10;
-    max-width: 600px;
+
 }
 
 .home-img{
@@ -78,7 +76,8 @@ section{
     right: 0;
     height: 110%;
     z-index: -1;
-}
+   
+   }
 
 /*  NAVIGATION */
 header{
@@ -210,24 +209,9 @@ footer a:hover{
 @media screen and (max-width: 800px){
     
     body {
-        font-size: 18px;
-    }
-    h1,h2{
-        font-weight:500;
-        padding: 1rem 1rem 1rem 0;
-    }
-    h1{
-        font-size: 2rem;
-    }
-    h2{
-        font-size: 1.5rem;
+        font-size: 14px;
     }
     
-    p{
-        
-        font-size: 1.1rem;
-        line-height: 2rem;
-    }
 
     .navbar{
         flex-direction: column;
@@ -290,26 +274,42 @@ footer a:hover{
         margin: 1rem 0;
         
      }
+     footer{
+         padding: 1rem;
+         word-wrap: break-word;
+
+     }
+
 
 }
 @media screen and (max-width: 1024px){
     body {
-        font-size: 20px;
+        font-size: 16px;
     }
-    h1,h2{
-        font-weight:500;
-        padding: 1rem 1rem 1rem 0;
+    
+}
+@media screen and (min-width: 1800px){
+    body {
+        font-size: 40px;
     }
+    
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     p{
-        
-        font-size: 1.1rem;
-        line-height: 2rem;
+      
+        font-size: 1.5rem;
     }
+    a{
+        font-size: 1.5rem;
+    }
+    main{
+        margin-top:6rem;
+    }
+
+    
 }
