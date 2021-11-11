@@ -52,15 +52,14 @@ section{
     flex-direction: row;
     justify-content: space-between;
     height: 100vh;
+    margin-top:0;
 }
 
 .home-img{
     height: 90%;
     justify-self: flex-end;
 }
-#home-page{
-    margin-top:0;
-}
+
 .btn{
     cursor: pointer;
     display: inline-block;
