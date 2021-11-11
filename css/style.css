@@ -51,7 +51,6 @@ section{
     height: 100vh;
     flex-direction: row;
 }
-<<<<<<< HEAD
 
 .home-img{
     height: 90%;
@@ -68,9 +67,6 @@ section{
 #home-page{
     margin-top:0;
 }
-=======
-/* 
->>>>>>> 6b82c2ac1e3ba1d62d6c725164ad8fa3c8d65d98
 .btn{
     cursor: pointer;
     display: inline-block;
@@ -160,7 +156,6 @@ header{
     grid-template-columns: 1fr 1fr;
  }*/
 
-<<<<<<< HEAD
  .toptext{
      text-align: center;
      margin-bottom: 100px;
@@ -170,8 +165,8 @@ header{
 
  }
  .section{
-    display: flex;
-    grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 2rem;
  }
 
@@ -190,8 +185,7 @@ header{
     padding-right: 1rem;
     max-width: 500px;
  }
-=======
-@media screen and (max-width: 990px){
+/* @media screen and (max-width: 990px){
     .navbar{
         flex-direction: column;
         padding: 0px 40px;
@@ -219,18 +213,14 @@ header{
         top: -100%;
         left: 0;
     }
->>>>>>> main
 
 
-<<<<<<< HEAD
-=======
     #menu:checked + label + .nav-list{
         background-color: black;
         top: 55px;
     }
 
-}
->>>>>>> main
+} */
 
 
 /*Logo*/
@@ -339,12 +329,11 @@ footer a:hover{
         width: 100%;
         grid-template-columns: 1fr;
         padding: 0;
-        
-        
+
 
     }
     .portfolio .section img{
-        display: none;
+        /* display: none; */
         padding:0;
         margin: 1rem 0;
 
@@ -396,13 +385,6 @@ footer a:hover{
     main{
         margin-top:6rem;
     }
-<<<<<<< HEAD
-}
-
-
-
-
-=======
     .portfolio .section img{
         
         max-width: 700px;
@@ -410,4 +392,3 @@ footer a:hover{
      }
     
 }
->>>>>>> 6b82c2ac1e3ba1d62d6c725164ad8fa3c8d65d98
