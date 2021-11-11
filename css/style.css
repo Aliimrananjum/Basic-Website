@@ -16,7 +16,7 @@ body {
     font-family: 'poppins', sans-serif; /*Vi må legge til en for <p>, altså vi har 2 fonts (fontpair)*/
     color: black;
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
 }
 h1,h2{
     font-weight:500;
@@ -44,16 +44,14 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
 }
 
 /* Home Page */
 .home{
-    flex-direction: row;
-    justify-content: space-between;
     height: 100vh;
+    flex-direction: row;
 }
+<<<<<<< HEAD
 
 .home-img{
     height: 90%;
@@ -70,6 +68,9 @@ section{
 #home-page{
     margin-top:0;
 }
+=======
+/* 
+>>>>>>> 6b82c2ac1e3ba1d62d6c725164ad8fa3c8d65d98
 .btn{
     cursor: pointer;
     display: inline-block;
@@ -79,10 +80,24 @@ section{
     padding: 10px 30px;
     margin: 20px 0;
 }
-
 .btn:hover{
     transform: scale(0.98);
+} */
+
+/* Home Page */
+.home-content{
+    position: relative;
+
 }
+
+.home-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 110%;
+    z-index: -1;
+   
+   }
 
 /*  NAVIGATION */
 header{
@@ -162,6 +177,8 @@ header{
     align-self: center;
     padding-left: 1rem;
     max-width: 500px;
+    display: block;
+    margin-left: auto;
  }
  
  .portfolio .section .img2{
@@ -222,24 +239,9 @@ footer a:hover{
 @media screen and (max-width: 800px){
     
     body {
-        font-size: 18px;
-    }
-    h1,h2{
-        font-weight:500;
-        padding: 1rem 1rem 1rem 0;
-    }
-    h1{
-        font-size: 2rem;
-    }
-    h2{
-        font-size: 1.5rem;
+        font-size: 14px;
     }
     
-    p{
-        
-        font-size: 1.1rem;
-        line-height: 2rem;
-    }
 
     .navbar{
         flex-direction: column;
@@ -305,6 +307,12 @@ footer a:hover{
 
         
      }
+     footer{
+         padding: 1rem;
+         word-wrap: break-word;
+
+     }
+
 
      .tittle {
          width: 100%;
@@ -313,26 +321,46 @@ footer a:hover{
 }
 @media screen and (max-width: 1024px){
     body {
-        font-size: 20px;
+        font-size: 16px;
     }
-    h1,h2{
-        font-weight:500;
-        padding: 1rem 1rem 1rem 0;
+    
+}
+
+/*spesiell case for 4k+ skjermer*/
+@media screen and (min-width: 1800px){
+    body {
+        font-size: 40px;
     }
+    
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     
     p{
-        
-        font-size: 1.1rem;
-        line-height: 2rem;
+      
+        font-size: 1.5rem;
     }
+    a{
+        font-size: 1.5rem;
+    }
+    main{
+        margin-top:6rem;
+    }
+<<<<<<< HEAD
 }
 
 
 
 
+=======
+    .portfolio .section img{
+        
+        max-width: 700px;
+
+     }
+    
+}
+>>>>>>> 6b82c2ac1e3ba1d62d6c725164ad8fa3c8d65d98
