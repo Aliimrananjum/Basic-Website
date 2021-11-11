@@ -166,7 +166,7 @@ header{
  }
  .section{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 2rem;
  }
 
