@@ -75,15 +75,17 @@ section.home{
     background-color: black;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 100px;
     align-items: center;
     font-size: 16px;
     z-index: 100;
 }
 
 .logo img{
-    height: 40px;
+    height: 45px;
     width: auto;
+    padding-top: 5px;
 }
 .nav-list{
     list-style-type: none;
@@ -122,17 +124,22 @@ section.home{
 @media screen and (max-width: 990px){
     .navbar{
         flex-direction: column;
+        padding: 0px 40px;
     }
 
     .logo{
-        width: 95%;
+        width: 100%;
+    }
+
+    .logo img{
+        padding-top: 10px;
     }
 
     .toggle{
         display: block;
         position: absolute;
         top: 15px;
-        right: 15px;
+        right: 40px;
     }
 
     .nav-list{
@@ -140,6 +147,7 @@ section.home{
         width: 100%;
         text-align: center;
         top: -100%;
+        left: 0;
     }
 
     .nav-list .list-item{
@@ -149,8 +157,11 @@ section.home{
 
     #menu:checked + label + .nav-list{
         background-color: black;
-        top: 6.75%;
+        top: 55px;
+    }
+
 }
+
 
 /*Logo*/
 .services{
