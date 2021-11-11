@@ -312,6 +312,10 @@ footer a:hover{
     main{
         margin-top:6rem;
     }
+    .portfolio .section img{
+        
+        max-width: 700px;
 
+     }
     
 }
