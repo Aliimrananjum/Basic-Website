@@ -156,6 +156,8 @@ header{
     align-self: center;
     padding-left: 1rem;
     max-width: 500px;
+    display: block;
+    margin-left: auto;
  }
  
 
