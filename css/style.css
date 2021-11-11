@@ -48,13 +48,14 @@ section{
 
 /* Home Page */
 .home{
-    height: 100vh;
+    height: 92vh;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .home-img{
-    height: 90%;
-    justify-self: flex-end;
+    height: 100%;
+    
 }
 
 .tittle {
@@ -65,21 +66,12 @@ section{
     width: 80%;
 }
 #home-page{
-    margin-top:0;
+    width: 100%;
 }
-
-/* Home Page */
 .home-content{
-    position: relative;
+    padding: 2rem;
 }
 
-.home-img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 110%;
-    z-index: -1;
-   }
 
 /*  NAVIGATION */
 header{
@@ -342,6 +334,7 @@ footer a:hover{
      .toptext{
         text-align: left;
         margin-bottom: 40px;
+     }
 
 }
 @media screen and (max-width: 1024px){
