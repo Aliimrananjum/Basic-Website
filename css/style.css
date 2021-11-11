@@ -38,23 +38,12 @@ p{
 main{
     margin:0 auto;
     width: 90%;
-    margin-top:4rem;
+    margin-top:9.5vh;
 }
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* Home Page */
-.home{
-    height: 100vh;
-    flex-direction: row;
-}
-
-.home img{
-    height: 100%;
-    justify-self: flex-end;
 }
 
 .tittle {
@@ -65,12 +54,24 @@ section{
     width: 80%;
 }
 
+/* Home Page */
+.home{
+    height: 91vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home img{
+    height: 100%;
+}
+
 #home-page{
-    margin-top:0;
+    width: 100%;
 }
 .home-content{
-    position: relative;
+    padding: 2rem;
 }
+
 
 /* .btn{
     cursor: pointer;
