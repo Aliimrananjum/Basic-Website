@@ -52,8 +52,8 @@ section{
     flex-direction: row;
 }
 
-.home-img{
-    height: 90%;
+.home img{
+    height: 100%;
     justify-self: flex-end;
 }
 
@@ -68,8 +68,11 @@ section{
 #home-page{
     margin-top:0;
 }
+.home-content{
+    position: relative;
+}
 
-.btn{
+/* .btn{
     cursor: pointer;
     display: inline-block;
     background-color: black;
@@ -82,20 +85,6 @@ section{
     transform: scale(0.98);
 } */
 
-/* Home Page */
-.home-content{
-    position: relative;
-
-}
-
-.home-img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 110%;
-    z-index: -1;
-   
-   }
 
 /*  NAVIGATION */
 header{
