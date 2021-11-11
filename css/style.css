@@ -50,10 +50,8 @@ section{
 /* Home Page */
 .home{
     height: 100vh;
-    padding: 100px;
     flex-direction: row;
 }
-
 .btn{
     cursor: pointer;
     display: inline-block;
@@ -63,11 +61,9 @@ section{
     padding: 10px 30px;
     margin: 20px 0;
 }
-
 .btn:hover{
     transform: scale(0.98);
 }
-
 
 /* Home Page */
 .home-content{
