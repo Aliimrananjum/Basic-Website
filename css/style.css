@@ -403,3 +403,8 @@ footer a:hover{
 
      }
 }
+@media screen and (max-width: 500px){
+    .portfolio .section .service {
+        margin:0 auto;
+    }
+}
