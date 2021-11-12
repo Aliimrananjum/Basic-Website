@@ -279,6 +279,16 @@ footer a:hover{
     margin-right: 50px;
 }
 
+.topical-side article ol{
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.topical-side article ol li{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+    
 .topical-side aside{
     background-color: lightgray;
 }
@@ -287,7 +297,9 @@ footer a:hover{
     text-align: center;
 }
 
+
 .topical-side .service{
+    height: 225px;
     background-color: white;
     margin: 20px;
     padding: 20px;
@@ -297,9 +309,14 @@ footer a:hover{
     font-size: 80%;
 }
 
+.topical-side aside .service a{
+    font-size: 90%;
+}
+
 .topical-side aside .service p{
     font-size: 80%;
     line-height: 1rem;
+    margin-top: 0.5rem;
 
 }
 
@@ -308,7 +325,7 @@ footer a:hover{
     max-width: 600px;
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 800px){
@@ -319,7 +336,12 @@ footer a:hover{
     .topical-side article{
         margin-right: 0;
     }
+
+    .topical-side aside{
+        text-align: center;
+    }
 }
+
 
 /*----- test page ends -----*/
 
