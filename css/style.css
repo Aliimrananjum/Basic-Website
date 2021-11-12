@@ -265,7 +265,63 @@ footer a:hover{
     color:yellow;
 }
 
+/*----- test page starts -----*/
 
+.topical-side{
+    display: flex;
+}
+
+.topical-side p{
+    margin-bottom: 1rem;
+}
+
+.topical-side article{
+    margin-right: 50px;
+}
+
+.topical-side aside{
+    background-color: lightgray;
+}
+
+.topical-side aside h2{
+    text-align: center;
+}
+
+.topical-side .service{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.topical-side aside .service h2{
+    text-align: left;
+    font-size: 80%;
+}
+
+.topical-side aside .service p{
+    font-size: 80%;
+    line-height: 1rem;
+
+}
+
+.topical-side aside .service .icon img{
+    width: 25%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px){
+    .topical-side{
+        flex-direction: column;
+    }
+
+    .topical-side article{
+        margin-right: 0;
+    }
+}
+
+/*----- test page ends -----*/
 
 
 @media screen and (max-width: 800px){
