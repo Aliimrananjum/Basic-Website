@@ -374,7 +374,7 @@ footer a:hover{
     
 }
 
-/*spesiell case for 4k+ skjermer*/
+/*spesielt for 4k+ skjermer*/
 @media screen and (min-width: 1800px){
     body {
         font-size: 40px;
