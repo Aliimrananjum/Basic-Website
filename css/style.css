@@ -38,7 +38,7 @@ p{
 main{
     margin:0 auto;
     width: 90%;
-    margin-top:4rem;
+    margin-top:5rem;
 }
 section{
     display: flex;
@@ -159,13 +159,7 @@ header{
     display: block;
     margin-left: auto;
  }
- 
- .portfolio .section .img2{
-    width: 100%;
-    align-self: center;
-    padding-right: 1rem;
-    max-width: 500px;
- }
+
 /* @media screen and (max-width: 990px){
     .navbar{
         flex-direction: column;
@@ -243,9 +237,8 @@ header{
 
 
 .portfolio .section .service h2 {
-    font-size: 24px;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 2rem;
     color: #1b206e;
 }
 .portfolio .section .service .icon img{
