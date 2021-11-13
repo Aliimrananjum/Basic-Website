@@ -82,3 +82,29 @@ footer{
     background-color: black;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    header #logo,
+    newsletter h1,
+    newsletter form,
+    #boxes .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header{
+        padding-bottom: 20px;
+    }
+
+
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-top: 5px;
+    }
+}
