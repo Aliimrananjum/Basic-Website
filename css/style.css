@@ -33,7 +33,7 @@ p{
     
     font-size: 1.1rem;
     line-height: 2rem;
-   /* max-width: 80%;*/
+    
 }
 main{
     margin:0 auto;
@@ -135,14 +135,13 @@ header{
  }*/
 
  .toptext{
-     text-align: center;
      margin-bottom: 100px;
  }
  .portfolio{
     margin-top: 1rem;
 
  }
- .portfolio .section{
+ .portfolio .reflection-section{
     display: grid;
     grid-template-columns: 3fr 2fr;
     margin-bottom: 2rem;
@@ -151,7 +150,7 @@ header{
     grid-template-columns: 1.25fr 1fr;
  }
 
- .portfolio .section img{
+ .portfolio .reflection-section img{
     width: 100%;
     align-self: center;
     padding-left: 1rem;
@@ -403,20 +402,20 @@ footer a:hover{
         font-size: 1.5rem;
         
     }
-    .portfolio .section{
+    .portfolio .reflection-section{
         width: 100%;
         grid-template-columns: 1fr;
         padding: 0;
     }
-    #topical .section{
+    #topical .reflection-section{
         grid-template-columns:1fr;
      }
-    .portfolio .section img{
+    .portfolio .reflection-section img{
         /* display: none; */
         padding:0;
         margin: 1rem auto;
     }
-    .portfolio .section .service {
+    .portfolio .reflection-section .service {
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         max-width: 400px;
         
@@ -468,7 +467,7 @@ footer a:hover{
     main{
         margin-top:6rem;
     }
-    .portfolio .section img{
+    .portfolio .reflection-section img{
         
         max-width: 700px;
 
