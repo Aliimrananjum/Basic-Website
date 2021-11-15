@@ -18,7 +18,7 @@ body {
     margin: 0;
     font-size: 18px;
 }
-h1,h2{
+h1,h2,h3{
     font-weight:500;
     padding: 1rem 1rem 1rem 0;
 }
@@ -59,7 +59,7 @@ section{
 }
 
 .tittle {
-    width: 80%;
+    width: 95%;
 }
 
 .tittle2 {
