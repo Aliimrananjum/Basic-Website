@@ -329,6 +329,30 @@ footer a:hover{
     font-size: 50px;
 }
 
+@media screen and (max-width: 800px){
+    .fun-site{
+        margin-top: 0;
+        margin-bottom: 5rem;
+        height: 100vh;
+        width: 100%;
+        background-image: url('../img/fun_h2.jpg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+
+    .fun-site .banner video{
+        display: none;
+    }
+
+    #modal-video .modal-video-content iframe{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
 /*----- test test fun ends -----*/
 
 @media screen and (max-width: 800px){
