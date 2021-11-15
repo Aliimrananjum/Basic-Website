@@ -28,8 +28,11 @@ h1{
 h2{
     font-size: 1.5rem;
 }
+h3{
+    font-size: 1.3rem;
+}
 
-p{
+p,a{
     
     font-size: 1.1rem;
     line-height: 2rem;
@@ -295,7 +298,7 @@ footer a:hover{
 
 
 .topical-side .service{
-    height: 225px;
+    height: 100%;
     background-color: white;
     margin: 1rem;
     padding: 1rem;
@@ -303,16 +306,16 @@ footer a:hover{
 }
 .topical-side aside .service h2{
     text-align: left;
-    font-size: 80%;
+    font-size: 1.3rem
 }
 
 .topical-side aside .service a{
-    font-size: 90%;
+    font-size: 1.5rem;
 }
 
 .topical-side aside .service p{
-    font-size: 80%;
-    line-height: 1rem;
+    
+    
     margin-top: 0.5rem;
 
 }
