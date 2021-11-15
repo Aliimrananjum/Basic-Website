@@ -132,10 +132,7 @@ header{
     display: none;
 }
 /*My first Semester*/
-/*.section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
- }*/
+
 
 
  .portfolio .reflection-section{
@@ -158,95 +155,6 @@ header{
      text-align: center;
      margin-bottom: 50px;
  }
-
-/* @media screen and (max-width: 990px){
-    .navbar{
-        flex-direction: column;
-        padding: 0px 40px;
-    }
-
-    .logo{
-        width: 100%;
-    }
-
-    .logo img{
-        padding-top: 10px;
-    }
-
-    .toggle{
-        display: block;
-        position: absolute;
-        top: 15px;
-        right: 40px;
-    }
-
-    .nav-list{
-        position: fixed;
-        width: 100%;
-        text-align: center;
-        top: -100%;
-        left: 0;
-    }
-
-
-    #menu:checked + label + .nav-list{
-        background-color: black;
-        top: 55px;
-    }
-
-} */
-
-
-/*Logo*/
-/* .services{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    text-align: center;
-}
-
-.services .service {
-    padding: 30px;
-}
-
-.services .service:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-
-.services .service h2 {
-    font-size: 24px;
-    font-weight: 500;
-    margin-top: 20px;
-    color: #1b206e;
-}
-.services .service .icon img{
-    max-width: 25%;
-} */
-
-/* .portfolio .section .service {
-    padding: 2rem;
-    width: 100%;
-}
-
-.portfolio .section .service:hover {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-
-.portfolio .section .service h2 {
-    font-weight: 500;
-    margin-top: 2rem;
-    color: #1b206e;
-}
-.portfolio .section .service .icon img{
-    width: 40%;
-    max-width: 600px;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-} */
 
 
 
@@ -295,8 +203,7 @@ footer a:hover{
 .topical-side aside h2{
     text-align: center;
 }
-
-
+ 
 .topical-side .service{
     height: 100%;
     background-color: white;
@@ -310,14 +217,11 @@ footer a:hover{
 }
 
 .topical-side aside .service a{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .topical-side aside .service p{
-    
-    
     margin-top: 0.5rem;
-
 }
 
 .topical-side aside .service .icon img{
@@ -468,11 +372,6 @@ footer a:hover{
         background-color: black;
         top: 55px;
     }
-
-    /* .services{
-        grid-template-columns: 1fr;
-    
-    } */
     
 
     .home-img{
@@ -550,8 +449,6 @@ footer a:hover{
         margin-top:6rem;
     }
     .portfolio .reflection-section img{
-        
         max-width: 700px;
-
      }
 }
