@@ -89,7 +89,7 @@ section{
 
 .btn:hover{
     transform: scale(0.98);
-    color: yellow;
+    color: rgba(255,220,0,1);
     
 }
 
