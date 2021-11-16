@@ -393,7 +393,6 @@ footer a:hover{
 
 .fun-site .fun-site-container{
     padding-top: 2rem;
-    background: blue;
     height: auto;
     width: 100%;
     color: white;
@@ -413,14 +412,8 @@ footer a:hover{
     column-gap: 50px;
 }
 
-.fun-site .fun-site-container .first-box .about{
-    z-index: 10;
-}
-
 .fun-site .fun-site-container .first-box img{
-    filter: saturate(0);
-    background: linear-gradient(center, ellipse, rgba(0,0,0,0), rgba(0,0,0,1));
-    
+    filter: saturate(0);    
 }
 
 .fun-site .fun-site-container .second-box{
@@ -437,11 +430,32 @@ footer a:hover{
     position: relative;
     bottom: 0;
 }
+.fun-site .fun-site-container .third-box{
+    margin: 25px 0;
+}
+
+.fun-site .fun-site-container .fourth-box{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.fun-site .fun-site-container .fourth-box a{
+    filter: invert(80%);
+    transition: 0.5s;
+}
+
+.fun-site .fun-site-container .fourth-box a:hover{
+    filter: invert(100%);
+}
 
 .fun-site-footer{
+    width: 100%;
     border: 2px solid rgba(255,220,0,1);
-
 }
+
 
 @media screen and (max-width: 800px){
     .fun-site{
@@ -473,12 +487,17 @@ footer a:hover{
         flex-direction: column;
     }
 
-    .fun-site .fun-site-container .second-box{
-        flex-direction: column;
-    
+    .fun-site .fun-site-container .first-box .about{
+        order: 2;
     }
 
+    .fun-site .fun-site-container .first-box .arda-img{
+        order: 1;
+    }
 
+    .fun-site .fun-site-container .second-box{
+        flex-direction: column;
+    }
 }
 
 /*----- test test fun ends -----*/
