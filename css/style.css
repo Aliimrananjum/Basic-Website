@@ -173,9 +173,10 @@ header{
     cursor: pointer;
     display: none;
 }
+/*My first Semester*/
 
 
-/*REFLECTION PAGEr*/
+
  .portfolio .reflection-section{
     display: grid;
     grid-template-columns: 2fr 1fr;
