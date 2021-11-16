@@ -78,6 +78,16 @@ section{
 
 
 /*  NAVIGATION */
+.skip-nav {
+    bottom:25%;
+    left: 25%;
+    position: absolute;
+    transform: translateY(-200%);
+  }
+  .skip-nav:focus {
+    transform: translateY(0%);
+  }
+
 header{
     position: fixed;
     width: 100%;
@@ -178,37 +188,37 @@ footer a:hover{
 
 /*----- test page starts -----*/
 
-.topical-side{
+#topical-side{
     display: flex;
 }
 
-.topical-side p{
+#topical-side p{
     margin-bottom: 1rem;
 }
 
-.topical-side article{
+#topical-side article{
     margin-right: 50px;
 }
 
-.topical-side article ol{
+#topical-side article ol{
     padding-left: 1rem;
     margin-bottom: 2rem;
 }
 
-.topical-side article ol li{
+#topical-side article ol li{
     padding-left: 1rem;
     padding-bottom: 0.5rem;
 }
     
-.topical-side aside{
+#topical-side aside{
     background-color: lightgray;
 }
 
-.topical-side aside h2{
+#topical-side aside h2{
     text-align: center;
 }
  
-.topical-side .service{
+#topical-side .service{
     height: 100%;
     background-color: white;
     margin: 1rem;
@@ -216,20 +226,20 @@ footer a:hover{
     text-align: center;
     border-radius: 20px;
 }
-.topical-side aside .service h2{
+#topical-side aside .service h2{
     text-align: left;
     font-size: 1.3rem
 }
 
-.topical-side aside .service a{
+#topical-side aside .service a{
     font-size: 1.2rem;
 }
 
-.topical-side aside .service p{
+#topical-side aside .service p{
     margin-top: 0.5rem;
 }
 
-.topical-side aside .service .icon img{
+#topical-side aside .service .icon img{
     width: 25%;
     max-width: 600px;
     display: block;
@@ -238,15 +248,15 @@ footer a:hover{
 }
 
 @media screen and (max-width: 800px){
-    .topical-side{
+    #topical-side{
         flex-direction: column;
     }
 
-    .topical-side article{
+    #topical-side article{
         margin-right: 0;
     }
 
-    .topical-side aside{
+    #topical-side aside{
         text-align: center;
     }
 }
