@@ -50,6 +50,7 @@ main{
     height: 92vh;
     flex-direction: row;
     justify-content: space-between;
+    padding: 3rem;
 }
 
 .home-img{
@@ -67,6 +68,21 @@ section{
     
 }
 
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+    color: yellow;
+    
+}
 .tittle {
     width: 95%;
 }
