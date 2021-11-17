@@ -409,8 +409,11 @@ footer a:hover{
     padding-top: 2rem;
     height: auto;
     width: 100%;
+    max-width: 1020px;
+    margin: 0px auto;
     color: white;
     overflow: hidden;
+    
 }
 
 .fun-site .fun-site-container h2{
