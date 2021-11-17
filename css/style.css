@@ -40,7 +40,6 @@ p,a{
     
 }
 main{
-    
     margin:0 auto;
     width: 90%;
     margin-top:5rem;
@@ -50,64 +49,6 @@ section{
     flex-direction: column;
     align-items: center;
 }
-
-/* Home Page */
-.home{
-    height: 92vh;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3rem;
-}
-
-.home-img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 110%;
-}
-
-section{
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    padding: 0;   
-}
-
-.home-content{
-    z-index: 10;
-    max-width: 600px;
-    padding: 2rem;
-}
-
-.btn{
-    display: inline-block;
-    cursor: pointer;
-    background: black;
-    color: white;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin: 20px 0;
-}
-
-.btn:hover{
-    transform: scale(0.98);
-    color: rgba(255,220,0,1);
-    
-}
-
-.tittle {
-    width: 95%;
-}
-
-.tittle2 {
-    width: 80%;
-}
-#home-page{
-    width: 100%;
-    margin-top: 4rem;
-}
-
-
 
 /*----- NAVIGATION BAR START -----*/
 .skip-nav {
@@ -179,6 +120,57 @@ header{
 }
 
 /*----- NAVIGATION BAR END -----*/
+
+
+/* Home Page */
+.home{
+    height: 94vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-img{ 
+   height: 100%;
+
+    zoom: 120%;
+   
+}
+
+.home-content{
+   flex-grow: 1;
+    z-index: 10;
+    max-width: 600px;
+    width: 40%;
+    padding: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+    color: rgba(255,220,0,1);
+    
+}
+
+.tittle {
+    width: 95%;
+}
+
+.tittle2 {
+    width: 80%;
+}
+#home-page{
+    width: 100%;
+    margin-top: 4rem;
+}
 
 /*----- My first Semester ------*/
 
@@ -410,8 +402,11 @@ footer a:hover{
     padding-top: 2rem;
     height: auto;
     width: 100%;
+    max-width: 1020px;
+    margin: 0px auto;
     color: white;
     overflow: hidden;
+    
 }
 
 .fun-site .fun-site-container h2{
@@ -530,9 +525,8 @@ footer a:hover{
         font-size: 14px;
     }
 
-    .home-content{
-        padding: 0;
-    }
+   
+    
     
     .navbar{
         flex-direction: column;
@@ -559,6 +553,7 @@ footer a:hover{
         width: 100%;
         text-align: center;
         top: -100%;
+        display: none;
     }
     
 
@@ -575,9 +570,7 @@ footer a:hover{
     }
     
 
-    .home-img{
-        display: none;
-    }
+    
     .logo{
         top:10px;
         left: 40px;
@@ -622,6 +615,19 @@ footer a:hover{
 @media screen and (max-width: 1024px){
     body {
         font-size: 16px;
+    }
+    .home-content{
+        width: fit-content;
+        
+    }
+    .home-img{
+        position: absolute;
+        right: 0;
+        height: 100%;
+        opacity: 0.2;
+        z-index: -1;
+        
+
     }
     
 }
