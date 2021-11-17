@@ -151,7 +151,7 @@ header{
 .navbar a{
     color: white;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .navbar a:hover{
@@ -412,7 +412,7 @@ footer a:hover{
     column-gap: 50px;
 }
 
-.fun-site .fun-site-container .first-box img{
+.fun-site .fun-site-container .first-box .arda-img{
     filter: saturate(0);    
 }
 
@@ -497,6 +497,14 @@ footer a:hover{
 
     .fun-site .fun-site-container .second-box{
         flex-direction: column;
+    }
+
+    .fun-site .fun-site-container .fourth-box{
+        column-gap: 25px;
+    }
+    .fun-site .fun-site-container .fourth-box img{
+        width: 80%;
+        height: auto;
     }
 }
 
