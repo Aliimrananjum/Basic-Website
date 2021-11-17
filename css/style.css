@@ -50,9 +50,9 @@ section{
     align-items: center;
 }
 
-/* Home Page */
+/*----- HOME STARTS-------*/
 .home{
-    height: 92vh;
+    height: 100vh;
     flex-direction: row;
     justify-content: space-between;
     padding: 3rem;
@@ -105,7 +105,7 @@ section{
     width: 100%;
     margin-top: 4rem;
 }
-
+/*----- HOME ENDS-------*/
 
 
 /*----- NAVIGATION BAR START -----*/
