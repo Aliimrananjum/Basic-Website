@@ -108,7 +108,7 @@ section{
 
 
 
-/*  NAVIGATION */
+/*----- NAVIGATION BAR START -----*/
 .skip-nav {
     bottom:30%;
     left: 0;
@@ -176,7 +176,10 @@ header{
     cursor: pointer;
     display: none;
 }
-/*My first Semester*/
+
+/*----- NAVIGATION BAR END -----*/
+
+/*----- My first Semester ------*/
 
 
 
@@ -219,7 +222,7 @@ footer a:hover{
     color:rgba(255,220,0,1);
 }
 
-/*----- test page starts -----*/
+/*----- TOPICAL INFORMATION START -----*/
 
 #topical-side{
     display: flex;
@@ -302,9 +305,9 @@ footer a:hover{
     }
 }
 
-/*----- test page ends -----*/
+/*----- TOPICAL INFORMATION END -----*/
 
-/*----- test test fun starts -----*/
+/*----- FUN STARTS -----*/
 .fun-site-body{
     background-color: black;
 }
@@ -367,7 +370,7 @@ footer a:hover{
     bottom: -50px;
     width: 100%;
     height: 250px;
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0.50), rgba(0,0,0,75), rgba(0,0,0,1));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0.50), rgba(0,0,0.75), rgba(0,0,0,1));
 }
 
 #modal-video{
@@ -519,7 +522,7 @@ footer a:hover{
     }
 }
 
-/*----- test test fun ends -----*/
+/*----- FUN ENDS -----*/
 
 @media screen and (max-width: 850px){
     body {
