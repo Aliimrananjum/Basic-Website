@@ -109,10 +109,12 @@ section{
 
 /*  NAVIGATION */
 .skip-nav {
-    bottom:25%;
-    left: 25%;
+    bottom:30%;
+    left: 0;
     position: absolute;
-    transform: translateY(-200%);
+    transform: translateY(-300%);
+        background-color: black;
+        padding: 0.5rem;
   }
   .skip-nav:focus {
     transform: translateY(0%);
@@ -277,7 +279,7 @@ footer a:hover{
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     #topical-side{
         flex-direction: column;
     }
@@ -288,6 +290,11 @@ footer a:hover{
 
     #topical-side aside{
         text-align: center;
+    }
+    #topical-side aside .service{
+        max-width: 400px;
+        margin-left:  auto;
+        margin-right: auto;
     }
 }
 
@@ -457,7 +464,7 @@ footer a:hover{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     .fun-site{
         margin-top: 0;
         margin-bottom: 5rem;
@@ -510,7 +517,7 @@ footer a:hover{
 
 /*----- test test fun ends -----*/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     body {
         font-size: 14px;
     }
@@ -601,9 +608,7 @@ footer a:hover{
         text-align: center;
         margin-bottom: 40px;
      }
-     .skip-nav{
-        background-color: black;
-     }
+     
 
 }
 @media screen and (max-width: 1024px){
