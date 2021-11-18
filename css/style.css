@@ -627,12 +627,26 @@ footer a:hover{
     }
     
 }
-@media screen and (max-width: 1250px){
+/*--- Home Page Image opacity START ---*/
+@media screen and (max-width: 160vh) and (max-height:700px){
     
     .home-img{
-        opacity: 0.2;
+        opacity: 0.1;
     }
 }
+@media screen and (max-width: 145vh) and (min-height:700px){
+    
+    .home-img{
+        opacity: 0.1;
+    }
+}
+@media screen and (min-width: 130vh) and (min-height:1000px){
+    
+    .home-img{
+        opacity: 1;
+    }
+}
+/*--- Home Page Image opacity END ---*/
 
 /*spesielt for 4k+ skjermer*/
 @media screen and (min-width: 1800px){
