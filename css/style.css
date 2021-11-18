@@ -399,7 +399,7 @@ footer a:hover{
 
 #modal-video .modal-video-content a.close-modal-video{
     text-decoration: none;
-    background-color: none;
+    background-color: transparent;
     position: absolute;
     color:white;
     top: -100px;
