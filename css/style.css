@@ -632,6 +632,12 @@ footer a:hover{
     }
     
 }
+@media screen and (max-width: 1250px){
+    
+    .home-img{
+        opacity: 0.2;
+    }
+}
 
 /*spesielt for 4k+ skjermer*/
 @media screen and (min-width: 1800px){
