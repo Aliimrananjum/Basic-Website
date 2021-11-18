@@ -7,6 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>My first semester</title>
+    <script>
+        setInterval(function(){
+        var vh = document.documentElement.clientHeight;
+        var vw = document.documentElement.clientWidth;
+        var img = document.getElementById("hi");
+        var rem = 0
+
+        if(vw> 1800){
+            rem = 40
+        }
+        else if(vw> 1024&& vw< 1800){
+            rem = 16
+        }
+        else{
+            rem = 18
+        }
+        var max = rem*2+600+(vh*2/3);
+
+        if(vw<=max){
+            img.style.opacity = "0.2";
+        }
+        else{
+            img.style.opacity = "1";
+        }
+    },1000)
+    </script>
 </head>
 
 <body>
@@ -43,7 +69,7 @@
                 </p>
                 <a href="reflection_essay.html#main" class="btn">See my journey</a>
             </div>
-            <img src="img/home_sit.jpg" class="home-img" alt="Student sitting on the floor reading from a notebook in a empty building">
+            <img src="img/home_sit.jpg" class="home-img" alt="Student sitting on the floor reading from a notebook in a empty building" id="hi">
 
         </section
     </main>

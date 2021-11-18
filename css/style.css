@@ -17,7 +17,7 @@ body {
     font-family: 'poppins', sans-serif; /*Vi må legge til en for <p>, altså vi har 2 fonts (fontpair)*/
     color: black;
     margin: 0;
-    font-size: 18px;
+    font-size: 14px;
 }
 h1,h2,h3{
     font-weight:500;
@@ -626,12 +626,12 @@ footer a:hover{
     }
     
 }
-@media screen and (max-width: 1250px){
+/* @media screen and (max-width: 1250px){
     
     .home-img{
         opacity: 0.2;
     }
-}
+} */
 
 
 /*spesielt for 4k+ skjermer*/
