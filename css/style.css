@@ -52,7 +52,7 @@ section{
 
 /* Home Page */
 .home{
-    height: 92vh;
+    height: 100vh;
     flex-direction: row;
     justify-content: space-between;
     padding: 3rem;
@@ -63,13 +63,6 @@ section{
     bottom: 0;
     right: 0;
     height: 110%;
-}
-
-section{
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    padding: 0;   
 }
 
 .home-content{
@@ -180,6 +173,11 @@ header{
     font-size: 24px;
     color:white;
 }
+.toggle .toggle-text{
+    font-size: 1.4rem;
+
+}
+
 
 /*----- NAVIGATION BAR END -----*/
 
@@ -582,9 +580,7 @@ footer a:hover{
     }
     
 
-    .home-img{
-        display: none;
-    }
+    
     .logo{
         top:10px;
         left: 40px;
