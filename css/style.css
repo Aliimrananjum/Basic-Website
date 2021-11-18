@@ -168,11 +168,10 @@ header{
 .toggle{
     cursor: pointer;
     display: none;
-}
-.toggle p{
     font-size: 24px;
     color:white;
 }
+
 .toggle .toggle-text{
     font-size: 1.4rem;
 
