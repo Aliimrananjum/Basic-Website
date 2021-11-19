@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     word-wrap: break-word;
+    
 }
 
 
@@ -18,6 +19,7 @@ body {
     color: black;
     margin: 0;
     font-size: 18px;
+    
 }
 h1,h2,h3{
     font-weight:500;
@@ -54,7 +56,7 @@ section{
 
 .skip-nav {
     bottom:30%;
-    left: 0;
+    left:12%;
     position: absolute;
     transform: translateY(-300%);
         background-color: black;
