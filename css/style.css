@@ -27,7 +27,7 @@ h1{
     font-size: 2rem;
 }
 h2{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 h3{
     font-size: 1.3rem;
@@ -50,58 +50,8 @@ section{
     align-items: center;
 }
 
-/* Home Page */
-.home{
-    height: 100vh;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3rem;
-}
-
-.home-img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 110%;
-}
-
-.home-content{
-    z-index: 10;
-    max-width: 600px;
-    padding: 2rem;
-}
-
-.btn{
-    display: inline-block;
-    cursor: pointer;
-    background: black;
-    color: white;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin: 20px 0;
-}
-
-.btn:hover{
-    transform: scale(0.98);
-    color: rgba(255,220,0,1);
-    
-}
-
-.tittle {
-    width: 95%;
-}
-
-.tittle2 {
-    width: 80%;
-}
-#home-page{
-    width: 100%;
-    margin-top: 4rem;
-}
-
-
-
 /*----- NAVIGATION BAR START -----*/
+
 .skip-nav {
     bottom:30%;
     left: 0;
@@ -177,10 +127,80 @@ header{
 
 }
 
-
 /*----- NAVIGATION BAR END -----*/
 
-/*----- My first Semester ------*/
+/*----- FOOTER STARTS ----*/
+
+footer{
+    padding: 2rem;
+    width: 90%;
+    margin: 2rem auto 1rem;
+    color: white;
+    background-color: black;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color:rgba(255,220,0,1);
+}
+
+/*----- FOOTER ENDS ----*/
+
+/*----- HOME PAGE STARTS -----*/
+.home{
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.home-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 110%;
+}
+
+.home-content{
+    z-index: 10;
+    max-width: 600px;
+    padding: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+    color: rgba(255,220,0,1);
+    
+}
+
+.tittle {
+    width: 95%;
+}
+
+.tittle2 {
+    width: 80%;
+}
+#home-page{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+
+/*----- HOME PAGE ENDS -----*/
+
+
+/*----- REFLECTION ESSAY STARTS ------*/
 
 
 
@@ -201,27 +221,8 @@ header{
     margin-left: auto;
     border-radius: 20px;
  }
+/*----- REFLECTION ESSAY STARTS ------*/
 
- .toptext{
-     text-align: center;
-     margin-bottom: 50px;
- }
-
-
-
-footer{
-    padding: 2rem;
-    width: 90%;
-    margin: 2rem auto 1rem;
-    color: white;
-    background-color: black;
-}
-footer a{
-    color: white;
-}
-footer a:hover{
-    color:rgba(255,220,0,1);
-}
 
 /*----- TOPICAL INFORMATION START -----*/
 
