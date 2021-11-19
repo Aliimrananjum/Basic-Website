@@ -100,6 +100,7 @@ header{
     color: white;
     text-decoration: none;
     transition: 0.5s;
+    display: block;
 }
 
 .navbar a:hover{
@@ -198,13 +199,31 @@ footer a:hover{
     margin-top: 4rem;
 }
 
+/*--- Home Page Image opacity START ---*/
+@media screen and (max-width: 160vh) and (max-height:700px){
+    
+    .home-img{
+        opacity: 0.15;
+    }
+}
+@media screen and (max-width: 145vh) and (min-height:700px){
+    
+    .home-img{
+        opacity: 0.15;
+    }
+}
+@media screen and (min-width: 130vh) and (min-height:1000px){
+    
+    .home-img{
+        opacity: 1;
+    }
+}
+/*--- Home Page Image opacity END ---*/
 
 /*----- HOME PAGE ENDS -----*/
 
 
 /*----- REFLECTION ESSAY STARTS ------*/
-
-
 
  .portfolio .reflection-section{
     display: grid;
@@ -223,6 +242,7 @@ footer a:hover{
     margin-left: auto;
     border-radius: 20px;
  }
+
 /*----- REFLECTION ESSAY STARTS ------*/
 
 
@@ -291,6 +311,12 @@ footer a:hover{
 @media screen and (max-width: 850px){
     #topical-side{
         flex-direction: column;
+    
+    }
+    #topical-side article h1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
     
     }
 
@@ -531,6 +557,8 @@ footer a:hover{
 
 /*----- FUN ENDS -----*/
 
+/*----- MAIN MEDIA QUERIES STARTS ---*/
+
 @media screen and (max-width: 850px){
     body {
         font-size: 14px;
@@ -607,6 +635,7 @@ footer a:hover{
         max-width: 400px;
         
     }
+    
      footer{
          padding: 1rem;
 
@@ -630,28 +659,8 @@ footer a:hover{
     }
     
 }
-/*--- Home Page Image opacity START ---*/
-@media screen and (max-width: 160vh) and (max-height:700px){
-    
-    .home-img{
-        opacity: 0.1;
-    }
-}
-@media screen and (max-width: 145vh) and (min-height:700px){
-    
-    .home-img{
-        opacity: 0.1;
-    }
-}
-@media screen and (min-width: 130vh) and (min-height:1000px){
-    
-    .home-img{
-        opacity: 1;
-    }
-}
-/*--- Home Page Image opacity END ---*/
 
-/*spesielt for 4k+ skjermer*/
+/*---- FOR 4K SCREENS -----*/
 @media screen and (min-width: 1800px){
     body {
         font-size: 40px;
@@ -681,3 +690,4 @@ footer a:hover{
         max-width: 700px;
      }
 }
+/*----- MAIN MEDIA QUERY ENDS ---*/
