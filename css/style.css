@@ -226,7 +226,9 @@ footer a:hover{
     .home-img{
         opacity: 1;
     }
-    
+    .home-content{
+        width: 50%;
+    }
 
 }
 /*--- Home Page Image opacity END ---*/
