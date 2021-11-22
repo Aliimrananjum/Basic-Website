@@ -167,6 +167,7 @@ footer a:hover{
 
 .home-content{
     z-index: 10;
+    width: 50%;
     max-width: 600px;
     padding: 2rem;
 }
@@ -200,23 +201,33 @@ footer a:hover{
 }
 
 /*--- Home Page Image opacity START ---*/
-@media screen and (max-width: 160vh) and (max-height:700px){
+@media screen and (max-width: 160vh) and (max-height:900px){
     
     .home-img{
         opacity: 0.15;
     }
+    .home-content{
+        width: 100%;
+    }
+    
 }
-@media screen and (max-width: 145vh) and (min-height:700px){
+@media screen and (max-width: 140vh) and (min-height:900px){
     
     .home-img{
         opacity: 0.15;
     }
+    .home-content{
+        width: 100%;
+    }
+    
 }
-@media screen and (min-width: 130vh) and (min-height:1000px){
+@media screen and (min-width: 130vh) and (min-height:1200px){
     
     .home-img{
         opacity: 1;
     }
+    
+
 }
 /*--- Home Page Image opacity END ---*/
 
