@@ -151,28 +151,32 @@ footer a:hover{
 /*----- FOOTER ENDS ----*/
 
 /*----- HOME PAGE STARTS -----*/
-.home{
+#home-page{
+    width: 100%;
+    margin-top: 4rem;
+}
+#home-page .home{
     height: 100vh;
     flex-direction: row;
     justify-content: space-between;
     padding: 3rem;
 }
 
-.home-img{
+#home-page .home .home-img{
     position: absolute;
     bottom: 0;
     right: 0;
     height: 110%;
 }
 
-.home-content{
+#home-page .home .home-content{
     z-index: 10;
     width: 50%;
     max-width: 600px;
     padding: 2rem;
 }
 
-.btn{
+#home-page .home .home-content .btn{
     display: inline-block;
     cursor: pointer;
     background: black;
@@ -182,7 +186,7 @@ footer a:hover{
     margin: 20px 0;
 }
 
-.btn:hover{
+#home-page .home .home-content .btn:hover{
     transform: scale(0.98);
     color: rgba(255,220,0,1);
     
@@ -195,40 +199,36 @@ footer a:hover{
 .tittle2 {
     width: 80%;
 }
-#home-page{
-    width: 100%;
-    margin-top: 4rem;
-}
 
 /*--- Home Page Image opacity START ---*/
 @media screen and (max-width: 160vh) and (max-height:900px){
     
-    .home-img{
+    #home-page .home .home-img{
         opacity: 0.15;
     }
-    .home-content{
+    #home-page .home .home-content{
         width: 100%;
+        
     }
     
 }
 @media screen and (max-width: 140vh) and (min-height:900px){
     
-    .home-img{
+    #home-page .home .home-img{
         opacity: 0.15;
     }
-    .home-content{
+    #home-page .home .home-content{
         width: 100%;
+        
     }
     
 }
 @media screen and (min-width: 130vh) and (min-height:1200px){
     
-    .home-img{
+    #home-page .home .home-img{
         opacity: 1;
     }
-    .home-content{
-        width: 50%;
-    }
+    
 
 }
 /*--- Home Page Image opacity END ---*/
