@@ -74,6 +74,7 @@ header{
     z-index: 50;
     top:0;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -114,7 +115,7 @@ header{
     right: 40px;
     top: 20px;
     height: 24px;
-    
+    display: none;
 }
 .menu-line{
     width: 20px;
@@ -608,7 +609,9 @@ footer a:hover{
     .logo img{
         padding-top: 10px;
     }
-
+    #menu{
+        display: block;
+    }
     .toggle{
         display: block;
         position: absolute;
@@ -636,8 +639,6 @@ footer a:hover{
         top: 55px;
         display: block;
     }
-    
-
     
     .logo{
         top:10px;
@@ -707,6 +708,12 @@ footer a:hover{
     p{
       
         font-size: 1.5rem;
+    }
+    li{
+        
+      
+            font-size: 1.5rem;
+        
     }
     a{
         font-size: 1.5rem;
