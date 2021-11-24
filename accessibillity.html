@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,15 @@
     <link rel="icon" href="img/258567472_317202326623508_2112999488720581329_n.png">
     <title>Accessibility</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <a class="skip-nav" href="#home-page">skip to content</a>
-            <div class="logo"><img src="img/OsloMet_Logo_rgb_gul-300x178-1-e1579860225514.png" alt="Oslometropolitan University's logo"></div>
-            <input type="checkbox" id="menu" name="menu"> 
-            <label for="menu" class="toggle" >
+            <div class="logo"><img src="img/OsloMet_Logo_rgb_gul-300x178-1-e1579860225514.png"
+                    alt="Oslometropolitan University's logo"></div>
+            <input type="checkbox" id="menu" name="menu">
+            <label for="menu" class="toggle">
                 <span class="toggle-text">Menu</span> &#9776;
             </label>
             <ul class="nav-list">
@@ -26,9 +29,87 @@
             </ul>
         </nav>
     </header>
-    <main></main>
-    
-    
+    <main>
+
+        <div class="toptext">
+            <h1>Accessibility</h1>
+        </div>
+        <div class="tittle">
+            <p>
+                To ensure that this webpage is compatible with a group of diverse users our team had to take great steps
+                to fulfil the resolution. To begin with the team openly discussed the aspect of universal design and
+                inclusive design related to webpage to set a clear understanding for ourselves on what the topic itself
+                means. Our understanding came to this that the goal with UD and ID is to ensure that our webpage is
+                available to as many users possible, regardless of the user’s impediment or hindrance. Therefore, our
+                team listed up disabilities that would make our website less effective with those users with that
+                disability. Doing so we would have a roadmap on how to make our webpage more inclusive.
+            </p>
+        </div>
+
+        <div class="portfolio">
+            <article>
+                <h2>What have we done?</h2>
+
+                <div class="tittle">
+                    <p>
+                        To ensure that users with color blindless, low vision or even blindness had the opportunity to
+                        use our website we had to take some actions. At first, our webpage did not take fully advantage
+                        of screen reader, therefore our team ensure that it was possible for a blind user to navigate
+                        through the website. Very similar is to be able to tab the keyboard focusable parts for users
+                        with motor impairment. To make it simpler to navigate our page we added a “skip to content
+                        button” and made image alts as descriptive as possible, even adding the text “menu” to our menu
+                        logo. Then we proceeded to check the colors on our page, settling on a simple color palette of
+                        white, black, yellow and blue for our links. We still did contrast checks and testing the page
+                        with filter: grayscale (1). We also made our text rather large to make zooming in on a page
+                        unneeded, including keeping sans-serif so it is easier to read. Though a problem could be our
+                        idea for our front-page image becoming a transparent background when faced with smaller screens
+                        or our menu tab focus being transparent.
+                        Finally, with users suffering from cognitive impairment in mind we focused on a simple layout
+                        and having easy to read text.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <a href="https://icons8.com/icon/9532/disabled-access"><img
+                                src="https://img.icons8.com/ios-filled/100/000000/access-for-blind.png "
+                                alt="Disabled Access icon by Icons8"></a>
+                    </div>
+                </div>
+
+
+                <div class="tittle">
+                    <p>
+                        After looking at disabilities we took the web page through varies tests to ensure that no
+                        problems will incur while using our web page. First off, we checked our <abbr
+                            title="Cascading Style Sheets">CSS</abbr> with a
+                        <a href="https://validator.w3.org/">CSS validator</a>
+                        and our <abbr title="Hyper Text Markup Language">HTML</abbr> with a
+                        <a href="https://validator.w3.org/">HTML validator</a>.
+                        There we found some small problems, for example
+                        background none instead of transparent, hierarchy problems created by
+                        &#60;h1&#62;/&#60;h2&#62;/&#60;h3&#62; or what elements
+                        were allowed inside a label. After that we proceeded to test the sites on accessibility checker
+                        called Eaccesability (link). our first test showed a miniscule number of problems, but after
+                        some editing, we passed it. Last of all was Achecker, where we only had 1 known problem across
+                        the total of pages, it being the use of &#60;i&#62; tag instead of &#60;strong&#62;. Since we
+                        didn’t have any likely problems, we moved onto potential problems. A lot of them were about the
+                        alt in the images and things to make the page a little better, but a lot of them didn’t make
+                        sense so we skipped over them. An example is a “skip to content” button, but we already had one.
+                        But in went through the checker and added what made sense, like
+                        &#60;span lang=””&#62; for the Norwegian mail.
+                    </p>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <a href="https://icons8.com/icon/21740/double-tick"><img
+                                src=" https://img.icons8.com/ios-filled/100/000000/double-tick.png"
+                                alt="Double Tick icon by Icons8"></a>
+                    </div>
+                </div>
+            </article>
+    </main>
+
+
     <footer>
         <h2>Oslomet - Faculty of technology, art and design</h2>
         <address>
@@ -37,9 +118,11 @@
             <p>Telefon: 67 23 59 73</p>
             <p><span lang="no"><a href="mailto:hovedresepsjonen@oslomet.no">hovedresepsjonen@oslomet.no</a></span></p>
         </address>
-        <p>All images has been taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a> and <a href="https://icons8.com/" target="_blank">icons8</a></p>
+        <p>All images has been taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a> and <a
+                href="https://icons8.com/" target="_blank">icons8</a></p>
 
     </footer>
 
 </body>
+
 </html>
