@@ -611,11 +611,21 @@ footer a:hover{
     #menu{
         display: block;
     }
+
+
     .toggle{
         display: block;
         position: absolute;
-        top: 15px;
+        top: 10px;
         right: 40px;
+    }
+
+    .toggle::after{
+        content: "MENU \2630";
+    }
+
+    #menu:checked ~ .toggle::after{
+        content: "CLOSE \1F7AC";
     }
 
     .nav-list{
