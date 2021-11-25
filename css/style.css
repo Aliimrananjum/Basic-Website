@@ -365,13 +365,16 @@ footer a:hover{
 /*----- ACCESIBILITY PAGE STARTS-----*/
 .access-grid{
     display:grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
 }
 .access-grid .tittle{
     margin-right: 3rem;
 }
 .access-grid img{
     width: 100%;
+}
+.access-article >div{
+    padding-bottom: 2rem;
 }
 /*----- ACCESIBILITY PAGE ENDS-----*/
 
