@@ -258,7 +258,7 @@ footer a:hover{
  }
 
 
- .portfolio .reflection-section img{
+.grid-img{
     width: 100%;
     align-self: center;
     /*padding-bottom: 1rem;*/
@@ -361,6 +361,19 @@ footer a:hover{
 }
 
 /*----- TOPICAL INFORMATION END -----*/
+
+/*----- ACCESIBILITY PAGE STARTS-----*/
+.access-grid{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.access-grid .tittle{
+    margin-right: 3rem;
+}
+.access-grid img{
+    width: 100%;
+}
+/*----- ACCESIBILITY PAGE ENDS-----*/
 
 /*----- FUN STARTS -----*/
 .fun-site-body{
@@ -716,8 +729,7 @@ footer a:hover{
     #topical .reflection-section{
         grid-template-columns:1fr;
      }
-    .portfolio .reflection-section img{
-        /* display: none; */
+     .grid-img{
         padding:0;
         margin: 1rem auto;
     }
@@ -725,6 +737,9 @@ footer a:hover{
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         max-width: 400px;
         
+    }
+    .access-grid{
+        grid-template-columns:1fr;
     }
     
      footer{
