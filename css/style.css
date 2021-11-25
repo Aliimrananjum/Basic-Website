@@ -504,6 +504,54 @@ footer a:hover{
 }
 .fun-site .fun-site-container .third-box{
     margin: 25px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fun-site .fun-site-container .media-container{
+    position: relative;
+    margin: 10px;
+}
+
+.fun-site .fun-site-container .third-box img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.fun-site .fun-site-container .third-box .media-container .media-overlay{
+    position: absolute;
+    background-color: rgba(255,220,0,1);
+    padding: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.fun-site .fun-site-container .third-box .media-overlay:hover{
+    opacity: 0.75;
+}
+
+.fun-site .fun-site-container .third-box .media-text{
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fun-site .fun-site-container .third-box .media-text br{
+    margin-top: 10px;
 }
 
 .fun-site .fun-site-container .fourth-box{
