@@ -231,7 +231,12 @@ footer a:hover{
     }
     #home-page .home .home-content{
         width: 100%;
+        background-color: rgb(128, 128, 128,0.05);
         
+        
+    }
+    #home-page .home{
+        padding: 0
     }
     
 }
