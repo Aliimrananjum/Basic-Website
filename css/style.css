@@ -625,7 +625,7 @@ footer a:hover{
     }
 
     #menu:checked ~ .toggle::after{
-        content: "CLOSE \1F7AC";
+        content: "CLOSE \2573";
     }
 
     .nav-list{
