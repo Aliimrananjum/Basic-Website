@@ -664,6 +664,10 @@ footer a:hover{
         height: fit-content;
         min-height: 100vh;
     }
+
+    .skip-nav {
+        left: 25%;
+    }
     
     .navbar{
         flex-direction: column;
