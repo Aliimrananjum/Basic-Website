@@ -484,10 +484,6 @@ footer a:hover{
     column-gap: 50px;
 }
 
-.fun-site .fun-site-container .first-box .arda-img{
-    filter: saturate(0);    
-}
-
 .fun-site .fun-site-container .second-box{
     margin: 25px 0;
     display: flex;
@@ -521,6 +517,7 @@ footer a:hover{
     width: 300px;
     height: 300px;
     object-fit: cover;
+    filter: saturate(0);
 }
 
 .fun-site .fun-site-container .third-box .media-container .media-overlay{
